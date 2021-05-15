@@ -16,6 +16,7 @@ $avatar-size: 32px;
 
   &_heart {
     display: flex;
+    margin-top: 10px;
 
     img {
       width: $heart-size;
