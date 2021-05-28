@@ -26,7 +26,7 @@ class Relationship < ApplicationRecord
 
     private
     def send_email
-        RelationshipMailer.new_follower(User.first, User.second).deliver_now
+        RelationshipMailer.new_follower(User.first, User.second).deliver_later
     end
 
 end
